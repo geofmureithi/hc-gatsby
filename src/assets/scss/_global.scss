@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Noto+Serif:400,400i,700');
+
 
 body {
     // background-color: #16171f;
-    background-color: #0f1621;
+    background-color: black;
     color: #f4f4f4;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Mukta Malar', sans-serif;
     line-height: 1.8;
+    font-size: 1.2em;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta Malar', sans-serif;
 }
 
 hr {

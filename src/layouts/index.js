@@ -43,6 +43,7 @@ class Template extends React.Component {
 
                 <Helmet>
                     <link href="https://file.myfontastic.com/BpzwX4LjHjPM2JxBPqgq4G/icons.css" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet"/>
                 </Helmet>
 
                 <Header handleToggleNav={this.toggleNav} toggleClass={toggleClass} />

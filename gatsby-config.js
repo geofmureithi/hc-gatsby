@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://hunterchang.com`,
-    title: "Hunter Chang - Web Developer & Designer",
-    author: "Hunter Chang",
-    description: "Hunter Chang is a web developer and designer living in beautiful Colorado."
+    title: "Geoffrey Mureithi - Full Stack Developer",
+    author: "Geoffrey Mureithi",
+    description: "Geoffrey Mureithi is a fullstack developer based in Nairobi-Kenya."
   },
   pathPrefix: '/',
   plugins: [

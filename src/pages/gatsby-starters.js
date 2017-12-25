@@ -8,7 +8,7 @@ class GatsbyStarters extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>Gatsby.js Starters and Templates | Hunter Chang</title>
+                    <title>Gatsby.js Starters and Templates | Geoffrey Mureithi</title>
                     <meta name="description" content="A collection of React.js website starters and templates for Gatsby.js" />
                 </Helmet>
 

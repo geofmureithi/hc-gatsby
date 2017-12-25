@@ -13,8 +13,8 @@ class BlogPostTemplate extends React.Component {
         return (
             <article className="post-single pt-5" itemScope itemType="http://schema.org/Article">
                 <Helmet>
-                    <title>{`${post.frontmatter.title} | Hunter Chang`}</title>
-                    <meta name="author" content="Hunter Chang" />
+                    <title>{`${post.frontmatter.title} | Geoffrey Mureithi`}</title>
+                    <meta name="author" content="Geoffrey Mureithi" />
                     <meta name="description" content={post.frontmatter.description} />
                 </Helmet>
 
@@ -42,7 +42,7 @@ class BlogPostTemplate extends React.Component {
                         </div>
                     </div>
                 </div>
-                <meta itemProp="author" content="Hunter Chang" />
+                <meta itemProp="author" content="Geoffrey Mureithi" />
             </article>
         )
     }

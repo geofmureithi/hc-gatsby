@@ -20,8 +20,8 @@ class BlogIndex extends React.Component {
                 <div className="banner banner--home">
                     <div className="banner__content text-center">
                         <div className="pb-8">
-                            <h1 className="text-uppercase mb-3"><strong>Hunter Chang</strong></h1>
-                            <h2 className="mb-3">Front End Developer &amp; Designer</h2>
+                            <h1 className="text-uppercase mb-3"><strong>Geoffrey Mureithi</strong></h1>
+                            <h2 className="mb-3">Full Stack Developer | Nairobi-Kenya</h2>
                         </div>
                         <div className="banner__arrow animation-fadeInOut">
                             <span className="fi-chevron-down h2"></span>
@@ -52,7 +52,7 @@ class BlogIndex extends React.Component {
                                             <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                                         </div>
                                     </div>
-                                    <meta itemProp="author" content="Hunter Chang" />
+                                    <meta itemProp="author" content="Geoffrey Mureithi" />
                                 </article>
                             )
                         }
@@ -68,9 +68,9 @@ class BlogIndex extends React.Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="py-4 text-center">
-                                    <h3 className="mb-4">Gatsby Starters and Templates</h3>
-                                    <p className="mb-4">View my collection of website templates for Gatsby.js. Gatsby is a static site generator which uses modern web technologies such as React.js, Webpack, and GraphQL.</p>
-                                    <p><Link to="/gatsby-starters/" className="btn btn-outline-secondary">View Templates</Link></p>
+                                    <h3 className="mb-4">Wanna Talk?</h3>
+                                    <p className="mb-4">Do you have an interesting project, idea or article related to React.js, Vue.js, Spring, Android, ReactNative or Javascript and Java in general?</p>
+                                    <p><Link to="/contact/" className="btn btn-outline-secondary">Contact Me</Link></p>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ class BlogIndex extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="py-4">
-                                    <p>My name is Hunter Chang and I've been a professional web developer and designer for over 8 years. I graduated in 2008 from the College of Architecture and Planning at the University of Colorado, Boulder. I'm currently working full time as a front end engineer at <a href="https://www.marketing360.com/" target="blank">Marketing 360</a>.</p>
+                                    <p>My name is Geoffrey Mureithi and I've been a professional fullstack developer for over 6 years. I started writting code at the age of 15 and have worked on interesting projects revolving around Mobile, Web and Desktop apps.  I'm currently working full time as a Full Stack Developer at <a href="https://www.msurvey.com/" target="blank">mSurvey</a>.</p>
                                     <p>I enjoy web design and development because everyday is a new and fast-paced learning experience with unique challenges to overcome. Outside of work, I dream about seeing the world and experiencing all that it has to offer. My favorite things include traveling, exquisite cuisine, ramen, and Korean pop.</p>
                                 </div>
                             </div>
