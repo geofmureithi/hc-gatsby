@@ -32,10 +32,10 @@ class BlogPostTemplate extends React.Component {
 
                             <div className="mb-5 mt-5">
                                 <ReactDisqusComments
-                                    shortname="hunter-chang"
+                                    shortname="mureithi"
                                     identifier={post.title}
                                     title={post.frontmatter.title}
-                                    url={"https://hunterchang.com" + post.frontmatter.path}
+                                    url={"https://mureithi.me" + post.frontmatter.path}
                                 />
                             </div>
 

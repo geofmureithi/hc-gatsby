@@ -63,14 +63,11 @@ class BlogIndex extends React.Component {
                 <section className="section section--shaded py-6">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <Img sizes={this.props.data.gatsbyTemplate.sizes} />
-                            </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-12">
                                 <div className="py-4 text-center">
                                     <h3 className="mb-4">Wanna Talk?</h3>
                                     <p className="mb-4">Do you have an interesting project, idea or article related to React.js, Vue.js, Spring, Android, ReactNative or Javascript and Java in general?</p>
-                                    <p><Link to="/contact/" className="btn btn-outline-secondary">Contact Me</Link></p>
+                                    <p><a href="tel:+254713622599" className="btn btn-outline-secondary">Contact Me</a></p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +80,7 @@ class BlogIndex extends React.Component {
                             <div className="col-lg-6">
                                 <div className="py-4">
                                     <p>My name is Geoffrey Mureithi and I've been a professional fullstack developer for over 6 years. I started writting code at the age of 15 and have worked on interesting projects revolving around Mobile, Web and Desktop apps.  I'm currently working full time as a Full Stack Developer at <a href="https://www.msurvey.com/" target="blank">mSurvey</a>.</p>
-                                    <p>I enjoy web design and development because everyday is a new and fast-paced learning experience with unique challenges to overcome. Outside of work, I dream about seeing the world and experiencing all that it has to offer. My favorite things include traveling, exquisite cuisine, ramen, and Korean pop.</p>
+                                    <p>I enjoy web design and development because everyday is a new and fast-paced learning experience with unique challenges to overcome. Outside of work, I dream about seeing the world and experiencing all that it has to offer. My favorite things include traveling, painting, photography and swimming</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -133,7 +130,7 @@ export const pageQuery = graphql`
                 }
             }
         }
-        aboutHunter: imageSharp(id: { regex: "/about-hunter-chang/" }) {
+        aboutHunter: imageSharp(id: { regex: "/about-mureithi/" }) {
             sizes(maxWidth: 690) {
               ...GatsbyImageSharpSizes
             }

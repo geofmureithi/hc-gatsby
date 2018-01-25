@@ -6,12 +6,12 @@ const Footer = (props) => (
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6 text-center text-lg-left">
-                    <p className="mt-3"><Link to="/" className="u-link-white">&copy; 2017 Geoffrey Mureithi</Link></p>
+                    <p className="mt-3"><Link to="/" className="u-link-white">&copy; 2018 Geoffrey Mureithi</Link></p>
                 </div>
                 <div className="col-md-6 text-center text-lg-right">
                     <p className="mt-md-3">
-                        <a href="https://www.instagram.com/changodaman/" title="Geoffrey Mureithi's Instagram" className="social-icon-link u-link-white" target="blank"><span className="fi-social-instagram-outline"></span></a>
-                        <a href="https://github.com/ChangoMan?tab=repositories" title="Geoffrey Mureithi's Github" className="social-icon-link u-link-white" target="blank"><span className="fi-social-github"></span></a>
+                        <a href="https://www.instagram.com/geofmureithi/" title="Geoffrey Mureithi's Instagram" className="social-icon-link u-link-white" target="blank"><span className="fi-social-instagram-outline"></span></a>
+                        <a href="https://github.com/geofmureithi?tab=repositories" title="Geoffrey Mureithi's Github" className="social-icon-link u-link-white" target="blank"><span className="fi-social-github"></span></a>
                     </p>
                 </div>
             </div>

@@ -6,11 +6,9 @@ const Navigation = (props) => (
         <nav className="nav-main" itemScope itemType="http://schema.org/SiteNavigationElement">
             <ul className="nav-main__list">
                 <li><Link itemProp="url" to="/" onClick={props.handleToggleNav}><span itemProp="name">Home</span></Link></li>
-                <li><Link itemProp="url" to="/gatsby-starters/" onClick={props.handleToggleNav}><span itemProp="name">Gatsby.js Starters And Templates</span></Link></li>
-                <li><Link itemProp="url" to="/react-youtube-background/" onClick={props.handleToggleNav}><span itemProp="name">React YouTube Video Background</span></Link></li>
-                <li><Link itemProp="url" to="/gatsby-featured-images/" onClick={props.handleToggleNav}><span itemProp="name">Featured Blog Images In Gatsby.js</span></Link></li>
-                <li><Link itemProp="url" to="/using-gatsby-image/" onClick={props.handleToggleNav}><span itemProp="name">Using Gatsby Image</span></Link></li>
-                <li><Link itemProp="url" to="/wordpress-to-gatsbyjs/" onClick={props.handleToggleNav}><span itemProp="name">From Wordpress to Gatsby.js</span></Link></li>
+                <li><Link itemProp="url" to="/2017/12/11/python-writing-the-perfect-tribonacci-sequence/" onClick={props.handleToggleNav}><span itemProp="name">Python: Writing the perfect Tribonacci sequence</span></Link></li>
+                <li><Link itemProp="url" to="/2016/06/24/python-the-f__k-it-approach/" onClick={props.handleToggleNav}><span itemProp="name">Python: The F#%K It Approach</span></Link></li>
+                <li><Link itemProp="url" to="/2015/08/12/html-css-creating-a-simple-beautiful-tab-design-that-requires-no-javascript/" onClick={props.handleToggleNav}><span itemProp="name">Tab design that requires no Javascript</span></Link></li>
             </ul>
         </nav>
     </div>
